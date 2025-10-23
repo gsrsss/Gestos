@@ -76,7 +76,7 @@ Puede identificar un thumbs up, un thumbs down, y un peace sign.")
 
 # --- Imagen Estática ---
 try:
-    image = Image.open('')
+    image = Image.open('gray poodle dog peace sign emoji.jpeg')
     # Aplicar clase CSS a la imagen
     st.markdown('<div class="static-image">', unsafe_allow_html=True)
     st.image(image, width=350)
