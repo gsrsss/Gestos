@@ -71,8 +71,7 @@ data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
 # --- Título y Descripción ---
 st.title("Reconocimiento de Imágenes  ˶ᵔ ᵕ ᵔ˶ ")
-st.subheader("Usando un modelo entrenado en Teachable Machine puedes usar esta app para identificar señas! 
-Puede identificar un thumbs up, un thumbs down, y un peace sign.")
+st.subheader("Usando un modelo entrenado en Teachable Machine puedes usar esta app para identificar señas! Puede identificar un thumbs up, un thumbs down, y un peace sign.")
 
 # --- Imagen Estática ---
 try:
