@@ -70,12 +70,13 @@ model = load_keras_model()
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
 # --- Título y Descripción ---
-st.title("📸 Reconocimiento de Imágenes")
-st.subheader("Usando un modelo entrenado en Teachable Machine puedes usar esta app para identificar señas.")
+st.title("Reconocimiento de Imágenes  ˶ᵔ ᵕ ᵔ˶ ")
+st.subheader("Usando un modelo entrenado en Teachable Machine puedes usar esta app para identificar señas! 
+Puede identificar un thumbs up, un thumbs down, y un peace sign.")
 
 # --- Imagen Estática ---
 try:
-    image = Image.open('OIG5.jpg')
+    image = Image.open('')
     # Aplicar clase CSS a la imagen
     st.markdown('<div class="static-image">', unsafe_allow_html=True)
     st.image(image, width=350)
